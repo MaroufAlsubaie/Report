@@ -1,0 +1,63 @@
+body{
+    background: radial-gradient(rgba(156, 151, 108, 0.733),rgb(214, 214, 207));
+}
+
+  .center {
+    position: absolute;
+    bottom: 75%;
+    left: 72%;
+  }
+.table1 {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background: radial-gradient(rgba(214, 201, 149, 0.404),rgb(151, 151, 121));
+    table-layout:fixed;
+}
+.table1 , table ,td ,th{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+
+}
+.table1 td{
+    height: 30px;
+    word-wrap:break-word;
+
+}
+
+.table1 input{
+    background: radial-gradient(rgba(216, 208, 177, 0.404),rgb(151, 151, 133));
+    margin: 4px;
+}
+.h2_login{
+text-align: center;
+margin-top: 200px;
+}
+.login_box{
+    width: 380px;
+    padding: 40px 30px 50px 30px;
+    background: rgb(238, 238, 235);
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+    margin-left: 730px;
+}
+.login_box input{
+    border-radius: 7px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
+    background: rgb(252, 252, 252);
+    text-align: center;
+    height: 17px;
+}
+.login_box p{
+    margin: 0; 
+    display: inline;
+}
+.login_box button{
+    margin-top: 25px;
+    height: 30px;
+    width: 60px;
+    
+}
+.butt_signout{
+    margin-left: 96%;
+}
