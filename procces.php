@@ -33,10 +33,12 @@
         }
     if(isset($_POST["send_report"])){
         $subj= $_POST["sub"];
+        $dep= $_POST["dep"];
+        $frame= $_POST["frame"];
         $expl= $_POST["exp"];
         $rnam= $_POST["rnm"];
         $riid= $_POST["rid"];
-        $sql = "INSERT INTO `reports` (`R_Number`, `title`, `explain`, `reporter_name`, `reporter_id`) VALUES (NULL, '$subj', '$expl', '$rnam', $riid)";
+        $sql = "INSERT INTO `reports` (`R_Number`, `title`, `explain`, `reporter_name`, `reporter_id`, `frame`, `Department`) VALUES (NULL, '$subj', '$expl', '$rnam', $riid, '$frame', '$dep')";
         $send = mysqli_query($conn,$sql);
         echo '<Script>window.location="reporter-page.php"</script>';
     }

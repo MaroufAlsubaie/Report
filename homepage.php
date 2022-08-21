@@ -27,6 +27,8 @@ $sql = "SELECT * FROM reports;";
         <th style="width:5%;">no.</th>
         <th style="width:15%;">subject</th>
         <th style="width:60%;">explain</th>
+        <th style="width:12%;">department</th>
+        <th style="width:12%;">frame</th>
         <th style="width:12%;">reporter name</th>
         <th style="width:8%;">reporter id</th>
         </tr>
@@ -34,6 +36,8 @@ $sql = "SELECT * FROM reports;";
             <td><?php echo $row["R_Number"];?></td>
             <td><?php echo $row["title"];?></td>
             <td><?php echo $row["explain"];?></td>
+            <td><?php echo $row["Department"];?></td>
+            <td><?php echo $row["frame"];?></td>
             <td><?php echo $row["reporter_name"];?></td>
             <td><?php echo $row["reporter_id"];?></td>
             
